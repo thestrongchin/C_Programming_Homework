@@ -13,13 +13,5 @@ int main(){
     printf("pi = %.2f  \n", pi);
     printf("pi = %.5f \n", pi);
     printf("pi = %.10f \n", pi);
-
-
-
-
-
-
-
-
     return 0;
 }
