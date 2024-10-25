@@ -6,4 +6,6 @@ int main(){
     
     printf("divided = %f \n", divided);
     return 0;
+
+// The output of this code is equal to "inf" because dividing a floating point number in C will result in inf, not 0.
 }
