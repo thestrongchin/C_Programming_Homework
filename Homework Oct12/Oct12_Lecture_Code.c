@@ -12,7 +12,7 @@ int main(){
     unsigned char us_char = 200;
     printf ("character letter: %c \n", letter);
     printf("signed char value: %d \n", s_char);
-    printf ("unsigned char value: %c \n",us_char);
+    printf ("unsigned char value: %u \n",us_char);
     printf("character '%c'has ASCII value %d \n",letter, letter);
     return 0;
 }
