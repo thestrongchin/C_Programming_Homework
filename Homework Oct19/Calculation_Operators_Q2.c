@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    char ch1 = 'E';
-    char ch2 = 'F';
-    int multiplied = ch1*ch2;
-    int divided = ch1/ch2;
-    printf("multiplied = %d \n", multiplied);
-    printf("divided = %d \n", divided);
+    float ch1 = 69;
+    float ch2 = 70;
+    float multiplied = ch1*ch2;
+    float divided = ch1/ch2;
+    printf("multiplied = %f \n", multiplied);
+    printf("divided = %f \n", divided);
     return 0;
 }
