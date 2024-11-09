@@ -6,4 +6,4 @@ int main (){
     int total = a + b + c;
     printf("Total: %d \n", total);
     return 0;
-}    
+}     
