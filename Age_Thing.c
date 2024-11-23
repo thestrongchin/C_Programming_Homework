@@ -31,7 +31,7 @@ int main(){
         printf("You're a teen 👦🏽");
         return 0;
     }
-    else if (age > 25)
+    else if (age > 25 && age < 65)
         printf("You're an adult 👨🏽 ");
         return 0;
     
