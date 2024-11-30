@@ -2,7 +2,7 @@
 int main(){
     long long age;
     long long result = 1;
-    printf("Please enter your age and I will tell you if you are an adult, child, teen, or about to die 😀😀😀:");
+    printf("Please enter your age and I will tell you if you are an adult, child, or a teen:");
     result = scanf("%lld", &age);
 
     if (result == 0){
@@ -17,7 +17,7 @@ int main(){
         return 0;
     }
     else if (age > 150){
-        printf("How are you over 150 years old? I think you're about to die 💀💀💀 \n");
+        printf("How are you over 150 years old? \n");
         printf("END OF CODE, PLEASE RUN AGAIN \n");
         return 0;
     }
