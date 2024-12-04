@@ -5,10 +5,11 @@ int main(){
     printf("Please enter an integer ");
     result = scanf("%d", &num);
 
-    if (result == 0){
-        printf("Sorry, you entered a character, please enter an integer \n");
+    if (result == 1){
+        printf("You entered %d", num);
+        return 0;
+    }else{
+        printf("Sorry, that's an invalid input. Please enter an integer.");
         return 0;
     }
-    printf("You entered %d", num);
-    return 0;
 }
