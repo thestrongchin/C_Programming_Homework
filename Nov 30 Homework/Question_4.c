@@ -19,6 +19,6 @@ int main() {
     if(age < 18){
         printf("child\n");
     }else if(age >=18 && age <= 26)
-    printf("teen \n");
+        printf("teen \n");
     return 0;
 }
