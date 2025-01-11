@@ -7,8 +7,11 @@ int main() {
     int result;
 
     printf("How much have you spent on your order? ");
+    scanf("%d", &spendings);
     printf("Are you a member? \n");
     printf("y = yes, n = no: ");
+    while (getchar() != '\n');
+    scanf("%c", &isMember);
 
     // If the user is a member
     if (isMember == 'y' || isMember == 'Y') {
