@@ -22,7 +22,7 @@ int main() {
         scanf("%d", &choice);
 
         if (choice < 1 || choice > 4) {
-            printf("You entered an invalid selection, please try again\n");
+            printf("\n \nYou entered an invalid selection, please try again\n");
         }
 
         if (choice == 1) {
