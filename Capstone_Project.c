@@ -2,16 +2,16 @@
 int main() {
 
     int choice;
-    float balance = 1000.0;
+    float USDbalance = 1000.0;
     float deposit;
     float withdrawn;
 
     printf("========================================\n");
-    printf("        Welcome to Bus Bus Bank!\n");
+    printf("        Welcome to Bus Bus Bank!\n"); 
     printf("========================================\n");
 
     while (1) { 
-        printf("\nYour current balance is: %.2f\n", balance);
+        printf("\nYour current balance is: %.2f\n", USDbalance);
         printf("What do you want to do?\n");
         printf("Please enter either 1, 2, 3, or 4 as your selection:\n");
         printf("1. Check Balance\n");
@@ -27,17 +27,17 @@ int main() {
 
         if (choice == 1) {
             printf("=================================\n");
-            printf("Your current balance is: %.2f\n", balance);
+            printf("Your current balance is: %.2f USD\n", USDbalance);
             printf("=================================\n");
 
         } if (choice == 2) {
             printf("Please enter how much you want to deposit: ");
             scanf("%f", &deposit);
-            if (deposit < 0) {
+            if (deposit < 0) { 
                 printf("You cannot deposit a negative amount, please try again. \n");
             } else {
-                balance += deposit;
-                printf(" \nYour new account balance is: %.2f\n \n", balance);
+                USDbalance += deposit;
+                printf(" \nYour new account balance is: %.2f USD\n \n", USDbalance);
             }
 
         } if (choice == 3) {
@@ -45,11 +45,11 @@ int main() {
             scanf("%f", &withdrawn);
             if (withdrawn < 0) {
                 printf("You cannot withdraw a negative amount, please try again\n");
-            }if (withdrawn > balance) {
-                printf("Sorry, you do not have enough money to withraw $%.2f. Please withdraw a different amount. \n", withdrawn);
+            }if (withdrawn > USDbalance) {
+                printf("Sorry, you do not have enough money to withraw $%.2f USD. Please withdraw a different amount. \n", withdrawn);
             } else {
-                balance -= withdrawn;
-                printf("Your new account balance is: %.2f\n", balance);
+                USDbalance -= withdrawn;
+                printf("Your new account balance is: %.2f USD\n", USDbalance);
             }
  
         } if (choice == 4) {
