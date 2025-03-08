@@ -6,7 +6,7 @@
 int main(){
     int num = 0; 
 
-    for(num = 0; num < 10; num + 2){
+    for(num = 0; num < 10; num++){
 
         if(num%2 == 1){
             printf("number is %d \n", num);
