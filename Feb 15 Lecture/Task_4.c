@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int rows, columns;
     
@@ -23,4 +22,4 @@ int main() {
     }
     
     return 0;
-}
+} 
