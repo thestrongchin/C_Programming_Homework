@@ -6,7 +6,7 @@ int main(){
 
     for(letter = 65; letter <= 90; letter++){
 
-        if(letter <= 90 || letter >= 65)
+        // if(letter <= 90 || letter >= 65)
             printf("Current letter is: %c \n", letter);
     }
     return 0;
