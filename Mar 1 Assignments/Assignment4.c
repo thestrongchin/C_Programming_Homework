@@ -7,3 +7,9 @@ int main(){
     }
     return 0; 
 }
+
+// Prediction: Infinite loop counting up by 1
+// Reason: There is no stopping number in the for loop
+
+
+// After: I was right
