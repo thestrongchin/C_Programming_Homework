@@ -12,6 +12,7 @@ int main(){
             printf("This is print");
         }
     }
+
     return 0;
 }
 
@@ -20,3 +21,9 @@ int main(){
 
 // After: 
 // Actual: "This will print" printed 5 times
+
+// Reason: 
+// In second for loop, the j = 0 is missing
+// j doesn't reset to 0 on the second run, so j is still equal to 5
+// On second run, j = 5
+// Code then stops
