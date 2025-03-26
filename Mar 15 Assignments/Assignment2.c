@@ -17,7 +17,7 @@ int main(){
     }
     switch(month){
         case 1:
-            printf("January has ")
+            printf("January has 31 days")
     }
 
 
