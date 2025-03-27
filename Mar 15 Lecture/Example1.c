@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int day = 1; 
+    int day = 2; 
     switch (day) {
         case 1: 
             printf("Monday \n");
