@@ -10,15 +10,7 @@ int main(){
     printf("Enter year:");
     scanf(" %d", &years);
 
-    if(month = 1, 3, 5, 7, 8, 10, 12){
-        days = 31;
-    }else{
-        days = 30;
-    }
-    switch(month){
-        case 1:
-            printf("January has 31 days")
-    }
+    
 
 
 }
