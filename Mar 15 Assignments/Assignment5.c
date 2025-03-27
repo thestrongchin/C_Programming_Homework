@@ -34,7 +34,7 @@ switch(date){
 return 0;
 }
 
-// result: 
+// result:  
 // 1 = weekday
 // reason: line 15 says that if user enters 1-5, it will print out weekday. 1 is in 1-5, which means the code prints weekday.
 
