@@ -9,12 +9,27 @@ int main() {
     printf("Please enter text (end with #):\n");
 
     while ((ch = getchar()) != '#') {
-        if (ch == ' ') {
-            spaces++;
-        } else if (ch == '\n') {
-            lines++;
-        } else {
-            other++;
+
+    //     if (ch == ' ') {
+    //         spaces++;
+    //     } else if (ch == '\n') {
+    //         lines++;
+    //     } else {
+    //         other++;
+    //     }
+
+        switch (ch){
+            case ' ':
+                spaces++;
+                break;
+
+            case '\n':
+                lines++;
+                break;
+
+            default:
+                other++;
+
         }
     }
 
