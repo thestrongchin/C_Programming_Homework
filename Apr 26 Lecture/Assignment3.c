@@ -15,6 +15,6 @@ int main() {
         total += num;
     }
 
-    printf("The total sum is: %d\n", total);
+    printf("The total is: %d\n", total);
     return 0;
 }
