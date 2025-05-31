@@ -1,25 +1,22 @@
 #include <stdio.h>
-
-int max_of_three(int a, int b, int c) {
+int max_of_three (int a, int b, int c){
     int max = a;
 
-    if (b > max) {
+    if(b > max){
         max = b;
     }
 
-    if (c > max) {
+    if (c > max){
         max = c;
     }
 
     return max;
 }
 
-int main() {
-    int x = 1, y = 2, z = 3;
-
-    int max_value = max_of_three(x, y, z);
-
-    printf("The maximum of %d, %d, and %d is %d\n", x, y, z, max_value);
-
+int main(){
+    int a = 13, b = 50, c = 60;
+    int result = max_of_three(a, b, c);
+    printf("The biggest number is: %d \n", result);
+    
     return 0;
 }
