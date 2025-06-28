@@ -19,4 +19,4 @@ int main(){
     printf("The biggest number is: %d \n", result);
     
     return 0;
-}
+} 
