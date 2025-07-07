@@ -41,4 +41,4 @@ long long factorial(int n){
 
 // Line 17: Factorial(number) has variable "number" in it, which is equal to 5*4*3*2*1. It prints out what 5*4*3*2*1 is equal to.
 
-// Final output: 
+// Final output: The factorial of 5 is 120
