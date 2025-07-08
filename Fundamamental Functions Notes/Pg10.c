@@ -13,7 +13,7 @@ int main(){
 }
 
 // Line 5 creates a function called "get_random_number", that will return a value (42)
-// Line 10 calls for the cuntion "get_random_number", and tells it to put the value (42) into the variable (number)
-// Line 11 prints out the value the "get_random_number" gave (number)
+// Line 10 calls for "get_random_number", and stores the value (42) into the variable "number"
+// Line 11 prints out the value of the variable "number".
 
 // Final output: The number is: 42

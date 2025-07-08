@@ -15,9 +15,9 @@ int main(){
 }
 
 // Line 5 creates function (sum), with 2 parameters: (x) and (y)
-// Line 10 creates parameters (a) and (b), which are equal to 5 and 10. It then passes the parameters 5 and 10 to (x) and (y)
-// Line 11 calls sum, and tells it to add parameters (a) and (b)
-// Line 6 adds parameters (a) and (b), which were passed to (x) and (y). It then returns it to the parameter "result"
+// Line 10 creates variables (a) and (b), which have a value of 5 and 10.
+// Line 11 calls function "sum", and tells it to add arguments (a) and (b)
+// Line 6 adds arguments (a) and (b), which were passed to parameters (x) and (y). It then returns it to the variable "result".
 // Line 13 prints out the final result
 
 // Final output: Sum: 15
