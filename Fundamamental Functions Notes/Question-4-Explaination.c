@@ -26,6 +26,10 @@ int main(){
     return 0;
 }
 // Line 4 creates a function (fibonacci) that has a variable called (n)
-// Line 5-13 tells the code to check if (n) is under 0 or equal to 0, or equal to 1. If (n) is under 0, it will terminate. If (n) is equal to 1, it will print. 
-// Line 18 tells the code to print out 5 fibonacci numbers
-// The for loop creates a variable (i) thats equal to 1. It will keep checking if (i) is less than (n). If it its, it will add 1 to (i). After checking, it will print out a fibonacci number. 
+// Line 5 is base case 1. It checks if (n) is equal or less than 0. If thats true, it will stop the code.
+// Line 9 is base case 2. It checks if (n) is equal to 1. If thats true, it will go to line 20.
+// If nothing meets the requirements of line 5 and 9, Line 13 will check.
+// Line 13 Is the recursive case. It means that to find the n-th fibonacci number, it will need to call for the fibonacci(n-1) and fibonacci(n-1), and add them together and return the result. 
+// Line 18 tells the code how many fibonacci numbers to print
+// Line 20 prints out the (n)th fibonacci number up to the fifth.
+

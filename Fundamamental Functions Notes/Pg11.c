@@ -33,12 +33,12 @@ long long factorial(int n){
 // Line 23 calls for function "factorial"
 // Line 24 checks if (n) is equal to 0 or 1
 
-// First loop: n = 5. Line 27 multiplies (n) by factorial. Factorial updates to 4, then updates (n) to 4. "number" 5*4.
-// Second loop: n = 4. Line 27 multiplies (n) by factorial. Factorial updates to 3, then updates (n) to 3. "number" is 5*4*3.
-// Third loop: n = 3. Line 27 multiplies (n) by factorial. Factorial updates to 2, the updates (n) to 2. "number" is 5*4*3*2.
-// Fourth loop: n = 2. Line 27 multiplies (n) by factorial. Factorial updates to 1, the updates (n) to 1. "number" is 5*4*3*2*1.
-// Firth loop. n = 1. Line 24 recognizes that n == 1 is true, so it returns to line 17, where "factorial" was called.
+// First loop: Factorial = 5. The code checks if "factorial" is 0 or 1, which it is not. "factorial(5)" then returns 5 * "factorial(4)"
+// Second loop: Factorial = 4. The code checks if "factorial" is 0 or 1, which it is not. "factorial(4)" then returns 4 * "factorial(3)"
+// Third loop: Factorial = 3. The code checks if "factorial" is 0 or 1, which it is not. "factorial(3)" then returns 3 * "factorial(2)"
+// Fourth loop: Factorial = 2. The code checks if "factorial" is 0 or 1, which it is not. "factorial(2)" then returns 2 * "factorial(1)"
+// Firth loop. Factorial = 1. The code checks if "factorial" is 0 or 1, which it is. This triggers line 24, which then returns 1.
 
-// Line 17: Factorial(number) has variable "number" in it, which is equal to 5*4*3*2*1. It prints out what 5*4*3*2*1 is equal to.
+// If we go up the loops, you will see that it totals to 5 * 4 * 3 * 2 * 1. This equals to 120.
 
 // Final output: The factorial of 5 is 120
