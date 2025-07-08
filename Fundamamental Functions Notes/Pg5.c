@@ -13,6 +13,6 @@ int main(){
 }
 
 // Line 5 creates a function called say_hi, which prints "Hello everyone"
-// Line 11 calls for the function say_hi, then say_hi prints "Hello everyone"
+// Line 11 calls for the function say_hi, which prints out ("Hello Everyone")
 
 // Final output: Hello everyone
