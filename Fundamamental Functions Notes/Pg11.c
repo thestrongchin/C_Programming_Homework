@@ -42,3 +42,8 @@ long long factorial(int n){
 // If we go up the loops, you will see that it totals to 5 * 4 * 3 * 2 * 1. This equals to 120.
 
 // Final output: The factorial of 5 is 120
+
+// ChatGPT Explaination (How return part works)
+// If "factorial" is (4):
+//
+

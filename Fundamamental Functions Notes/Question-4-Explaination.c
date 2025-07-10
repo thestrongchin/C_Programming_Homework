@@ -25,6 +25,7 @@ int main(){
 
     return 0;
 }
+
 // Line 4 creates a function (fibonacci) that has a variable called (n)
 // Line 5 is base case 1. It checks if (n) is equal or less than 0. If thats true, it will stop the code.
 // Line 9 is base case 2. It checks if (n) is equal to 1. If thats true, it will go to line 20.
@@ -34,4 +35,3 @@ int main(){
 
 // Line 18 tells the code how many fibonacci numbers to print
 // Line 20 prints out the (n)th fibonacci number up to the fifth.
-
