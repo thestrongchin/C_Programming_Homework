@@ -3,7 +3,7 @@
 int globalVar = 20;
 
 void myFunction(){
-    printf("Value of golbal cariable in main: %d \n", globalVar);
+    printf("Value of golbal variable in main: %d \n", globalVar);
 }
 
 int main (){
