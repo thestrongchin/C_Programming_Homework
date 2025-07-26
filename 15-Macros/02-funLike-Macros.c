@@ -6,7 +6,7 @@
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define PRINT_INT_VAR(var) printf("age = %d \n", var)
 #define INCREMENT(x) ((x) + 1)
-#define DEBUG(msg) do { printf("LOG: %s \n", msg); } while(1) // DEBUG CODE!!! This code will only print as long as while is false. USE THIS FOR CAPSTONE 2!
+#define DEBUG(msg) do { printf("LOG: %s \n", msg); } while(0) // DEBUG CODE!!! This code will only print as long as while is false. USE THIS FOR CAPSTONE 2!
 
 int main(){
     int a = 5;

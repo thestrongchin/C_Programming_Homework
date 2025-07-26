@@ -34,7 +34,7 @@ int get_user_guess(int guess){
 
         if 
 
-    if(guess <= 0){
+    if(guess <= 0){         
         printf("invalid guess, please try again.");
         printf("Guesses remaining: %d \n", MAX_ATTEMPTS);
     }
