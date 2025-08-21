@@ -41,4 +41,3 @@ int get_user_guess(int guess){
 
     }
 }
-
