@@ -4,6 +4,7 @@
 int main(){
 
     printf("Global Counter: %d \n", global_counter);
+
+    return 0;
 }
 
-return 0;
