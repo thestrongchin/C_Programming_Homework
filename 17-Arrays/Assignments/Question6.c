@@ -13,10 +13,4 @@ int main(){
     printf("Total: %d, %d, %d, %d", arr3[0], arr3[1], arr3[2], arr3[3]);
 
     return 0;
-
-    
-
-    
-
-
 }
