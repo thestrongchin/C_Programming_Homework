@@ -2,7 +2,10 @@
 
 int main(){
     int courses[5] = {85, 90, 78, 92, 88};
-    printf("My final grade is %d, %d, %d, %d, %d this semester", courses[0], courses[1], courses[2], courses[3], courses[4]);
+    
+    for(int i = 0; i < 5; i++){
+        printf("Grade: %d \n", courses[i]);
+    }
 
     return 0;
 }
