@@ -1,15 +1,26 @@
 #include <stdio.h>
 
 int main(){
-    int min;
+    int arr[6] = {1, 2, 3, 4, 5, 6};
+    int elements;
     int max;
+    int min;
 
-    int arr[6];
-    for(int i = 0; i < 6; i++);
-        printf("Please enter element %d: ", i + 1);
-        scanf("%d", &arr[i]);
+    printf("Enter number of elements: ");
+
+    for(int i = 0; i < 6; i++){
+        scanf("%d", arr[i]);
     }
 
-    for(int)
-    return 0;
+    max = arr[0];
+    min = arr[0];
+
+    for(i = 1; i < 6; i++){
+        
+    }
+
+
+
+    
+
 }
