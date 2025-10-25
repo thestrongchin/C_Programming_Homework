@@ -7,10 +7,10 @@ int main(){
     int size;
 
     for(int i = 0; i < 4; i++){
-        arr3[i] = arr1[i] + arr2[i];
-    }
 
-    printf("Total: %d, %d, %d, %d", arr3[0], arr3[1], arr3[2], arr3[3]);
+        arr3[i] = arr1[i] + arr2[i];
+        printf("Array: %d \n", arr3[i]);
+    }
 
     return 0;
 }
