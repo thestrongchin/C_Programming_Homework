@@ -10,7 +10,7 @@ int main(){
     for(int i = 0; i < 6; i++){ // asks user for input 6 times, each time putting their input into the array
         scanf("%d", &arr[i]);
         printf("Please enter an integer: ");
-    }
+    } 
 
     max = arr[0]; // sets max to the first number of the array
     min = arr[0]; // sets min to the first number of the array
