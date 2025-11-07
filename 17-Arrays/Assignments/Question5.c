@@ -5,7 +5,7 @@ int main(){
     int temp;
     int moveNum = 4;
 
-    for(int i = 0; i < 1; i++){
+    for(int i = 0; i < 5; i++){
 
         temp = arr[i + moveNum];
         arr[i] = temp;
