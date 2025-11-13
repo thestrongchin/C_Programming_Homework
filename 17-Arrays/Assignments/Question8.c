@@ -7,7 +7,7 @@ int main(){
     int amount = sizeof(arr) / sizeof(arr[0]);
 
     for(int i = 0; i < 5; i++){
-        sum = sum + arr[i]; // adds all the elements and puts into sum
+        sum = sum + arr[i]; 
     }
 
     avg = sum / amount;
