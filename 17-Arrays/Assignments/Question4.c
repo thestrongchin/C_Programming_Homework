@@ -7,16 +7,16 @@ int main(){
     for(int i = 0; i < 6; i++){
 
         printf("Please enter element #%d: ", i + 1);
-        scanf("%d", &arr[n]);
+        scanf("%d", &arr[i]);
     }
 
-    for(int n = 0; n < 6; n++){
+    for(int i = 0; i < 6; i++){
         if(min < arr[i]){
-            min = arr[n];
+            min = arr[i];
         }
 
-        if(max > arr[n]){
-            max = arr[n];
+        if(max < arr[i]){
+            max = arr[i];
         }
     }
 
