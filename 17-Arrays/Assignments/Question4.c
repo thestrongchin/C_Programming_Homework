@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main(){
     int arr[6];
-    int min = arr[0];
-    int max = arr[0];
 
     for(int i = 0; i < 6; i++){
 
@@ -10,7 +8,8 @@ int main(){
         scanf("%d", &arr[i]);
     }
 
-
+    int min = arr[0];
+    int max = arr[0];
 
     for(int i = 0; i < 6; i++){
         if(arr[i] < min){
@@ -22,7 +21,7 @@ int main(){
         }
     }
 
-    printf("Min: %d \n Max = %d \n", min, max);
+    printf("Min: %d \nMax = %d \n", min, max);
 
     return 0;
 
