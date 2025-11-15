@@ -11,11 +11,11 @@ int main(){
     }
 
     for(int i = 0; i < 6; i++){
-        if(min < arr[i]){
+        if(arr[i] < min){
             min = arr[i];
         }
 
-        if(max < arr[i]){
+        if(arr[i] > max){
             max = arr[i];
         }
     }
