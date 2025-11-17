@@ -3,6 +3,7 @@ int compare(int arrA[], int lenA, int arrB[], int lenB){
     int temp = arrA[0];
     int matchingCount = 0;
 
+    // Nested for loop
     for(int i = 0; i < lenA; i++){
         temp = arrA[i];
 
@@ -26,7 +27,7 @@ int main(){
 
     int result = compare(arrayA, arrayA_len, arrayB, arrayB_len);
 
-    // printf("%d are matching", result);
+    printf("%d numbers are matching", result);
 
     return 0;
 }
