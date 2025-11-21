@@ -1,18 +1,16 @@
 #include <stdio.h>
 
-int indexOfSmallest(int datas, int arrayLength[], int startindex){
-    int temp = arrayLength[0];
+int indexOfSmallest(int datas[], int arrayLength, int startindex){
     int min = 0;
+    int temp = datas[startindex];
 
-    // Finding smallest of arrayLength[]
-    for(int i = 0; i < 7; i++){
-        if(temp < arrayLength[i]){
-            min = arrayLength[i];
+    for(int i = startindex; i < arrayLength; i++){
+        if(datas[i] < temp){
+            min = datas[i];
         }
     }
 
-    int 
-
+    return min;
 }
 
 int main(){
@@ -21,4 +19,8 @@ int main(){
     int arrLength = sizeof(data) / sizeof(data[0]);
 
     int result = indexOfSmallest(data, arrLength, 2);
+
+    printf("The smallest is: %d \n", result);
+
+    return 0;
 }
