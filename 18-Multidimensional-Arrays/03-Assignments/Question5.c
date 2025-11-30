@@ -12,7 +12,7 @@ float random_num_generate(){
 }
 
 void copy_num(int row, int col, float source[row][col], float target[row][col]){
-    int temp = source[0][0];
+    float temp = source[0][0];
 
     for(int i = 0; i < row; i++){
         for(int j = 0; j < col; j++){
@@ -23,6 +23,8 @@ void copy_num(int row, int col, float source[row][col], float target[row][col]){
 }
 
 void print_arrays(int row2, int col2, float source2[row2][col2], float target2[row2][col2]){
+
+    copy_num(row2, col2, source2, target2);
 
     printf("source array: \n");
     for(int i = 0; i < row2; i++){
@@ -67,7 +69,6 @@ int main(){
         }
     }
 
-    copy_num(rows, cols, sourceArr, targetArr);
     print_arrays(rows, cols, sourceArr, targetArr);
 
    return 0;
